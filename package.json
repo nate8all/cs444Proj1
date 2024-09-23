@@ -18,6 +18,8 @@
     "predebug-test": "npm run build",
     "debug-test": "mocha --inspect-brk dist/test"
   },
+  "type" : "module",
+  
   "dependencies": {
     "cs544-js-utils": "file:prj1/prj1-sol/cs544-js-utils.tgz",
     "cs544-node-utils": "file:prj1/prj1-sol/cs544-node-utils.tgz"
